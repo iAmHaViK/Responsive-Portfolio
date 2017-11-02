@@ -1,0 +1,284 @@
+.container {
+	position: relative;
+	background-color: #ffffff;
+	width:650px;
+	margin-left: 60px;
+	height:570px;
+}
+
+.connect {
+	position:relative;
+	left: 800px;
+	bottom:569px;
+	background-color: #ffffff;
+	width:270px;
+	text-align: center;
+	height:180px;
+	padding-top: 30px;
+}
+
+/*my icons for the connect div*/
+.cat {
+	position:absolute;
+	left:40px;
+	top:110px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.cat:hover {
+	box-shadow: 10px 10px 5px #4aaaa5;
+	background-color: grey;
+}
+
+.in {
+	position:absolute;
+	left:110px;
+	top:110px;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+.in:hover {
+	box-shadow: 10px 10px 5px #4aaaa5;
+	background-color: grey;
+}
+
+.stack {
+	position:absolute;
+	left:180px;
+	top:110px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.stack:hover {
+	box-shadow: 10px 10px 5px #4aaaa5;
+	background-color: grey;
+}
+
+.form {
+color:#777777;
+font-size: 20px;
+padding-left: 30px;
+
+}
+
+.submit {
+
+	background:#4aaaa5;
+	color: #fff;
+    text-shadow: none;
+    width:100px;
+    height: 40px;
+
+}
+
+.submitbar {
+
+padding-top: 10px;
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+	.wrapper{
+		max-width: 800px;
+	}
+
+	.header {
+		width:650px;
+	}
+
+	.about {
+	position: absolute;
+	left:600px;
+	top:0px;
+	}
+
+	.about:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.portfolio {
+	position: absolute;
+	left:530px;
+	top:0px;
+	}
+
+	.portfolio:hover {
+	background-color:#4aaaa5;
+	color:white;
+
+	}
+
+	.contact {
+	position: absolute;
+	left:470px;
+	top:0px;
+	}
+
+	.contact:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.connect {
+	position: absolute;
+	left:70px;
+	background-color: #ffffff;
+	width:270px;
+	text-align: center;
+	height:180px;
+	top:700px;
+	display: block;
+	}
+
+	footer {
+		display: block;
+		width:100%;
+		top:950px;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+
+	.wrapper{
+		max-width: 800px;
+	}
+
+	.header {
+		width:650px;
+	}
+
+	.about {
+	position: absolute;
+	left:600px;
+	top:0px;
+	}
+
+	.about:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.portfolio {
+	position: absolute;
+	left:530px;
+	top:0px;
+	}
+
+	.portfolio:hover {
+	background-color:#4aaaa5;
+	color:white;
+
+	}
+
+	.contact {
+	position: absolute;
+	left:470px;
+	top:0px;
+	}
+
+	.contact:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.connect {
+	position: absolute;
+	left:70px;
+	background-color: #ffffff;
+	width:270px;
+	text-align: center;
+	height:180px;
+	top:700px;
+	display: block;
+	}
+
+	footer {
+		display: block;
+		width:100%;
+		top:950px;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+/*	body{
+		background-color: green;
+	}*/
+	.wrapper{
+		max-width: 350px;
+	}
+
+	.container {
+	position: relative;
+	background-color: #ffffff;
+	width:400px;
+	height:560px;
+}
+	
+	.header {
+		width:650px;
+	}
+
+	.about {
+	position: absolute;
+	left:490px;
+	top:0px;
+	}
+
+	.about:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.portfolio {
+	position: absolute;
+	left:415px;
+	top:0px;
+	}
+
+	.portfolio:hover {
+	background-color:#4aaaa5;
+	color:white;
+
+	}
+
+	.contact {
+	position: absolute;
+	left:350px;
+	top:0px;
+	}
+
+	.contact:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.form {
+color:#777777;
+font-size: 20px;
+padding-left: 30px;
+width:100px;
+
+}
+
+	.connect {
+	position: absolute;
+	left:70px;
+	background-color: #ffffff;
+	width:270px;
+	text-align: center;
+	height:180px;
+	top:700px;
+	}
+
+	footer {
+		top:100%;
+		width:100%;
+	}
+
+}

@@ -1,0 +1,344 @@
+body {
+	background-image: url(../images/back.png)
+}
+
+.header {
+	background-color: #ffffff;
+	position: relative;
+	top:-20px;
+	line-height: 60px;
+	padding-left: 60px;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	width:170px;
+	text-align: center;
+	color:white;
+	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.about {
+	position: absolute;
+	left:995px;
+	top:0px;
+}
+
+.about:hover {
+	background-color:#4aaaa5;
+	color:white;
+}
+
+.portfolio {
+	position: absolute;
+	left:920px;
+	top:0px;
+}
+
+.portfolio:hover {
+background-color:#4aaaa5;
+color:white;
+
+}
+
+.contact {
+	position: absolute;
+	left:850px;
+	top:0px;
+}
+
+.contact:hover {
+	background-color:#4aaaa5;
+	color:white;
+}
+
+a {
+	color:#777777;
+}
+
+.container {
+	position: relative;
+	background-color: #ffffff;
+	width:650px;
+	margin-left: 60px;
+	height:410px;
+}
+
+.leftpadding {
+    padding-left: 30px;
+}
+
+h2 {
+	padding-left: 30px;
+	color:#4aaaa5;
+
+}
+
+img {
+	padding-right: 10px;
+}
+
+p {
+	font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#777777;
+}
+
+.connect {
+	position:relative;
+	left: 800px;
+	bottom:410px;
+	background-color: #ffffff;
+	width:270px;
+	text-align: center;
+	height:180px;
+	padding-top: 30px;
+}
+
+/*my icons for the connect div*/
+.cat {
+	position:absolute;
+	left:40px;
+	top:110px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.cat:hover {
+	box-shadow: 10px 10px 5px #4aaaa5;
+	background-color: grey;
+}
+
+.in {
+	position:absolute;
+	left:110px;
+	top:110px;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+.in:hover {
+	box-shadow: 10px 10px 5px #4aaaa5;
+	background-color: grey;
+}
+
+.stack {
+	position:absolute;
+	left:180px;
+	top:110px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.stack:hover {
+	box-shadow: 10px 10px 5px #4aaaa5;
+	background-color: grey;
+}
+
+/*connect div ends here*/
+
+footer{
+
+	background-color: grey;
+	border-top:7px solid #4aaaa5;
+	position: absolute;
+	width:100%;
+	bottom:0%;
+	height: 80px;
+}
+
+.footer{
+	text-align: center;
+	color:white;
+	padding-top: 30px;
+}
+
+
+@media screen and (max-width: 980px) {
+
+	.wrapper{
+		max-width: 800px;
+	}
+
+	.header {
+		width:650px;
+	}
+
+	.about {
+	position: absolute;
+	left:600px;
+	top:0px;
+	}
+
+	.about:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.portfolio {
+	position: absolute;
+	left:530px;
+	top:0px;
+	}
+
+	.portfolio:hover {
+	background-color:#4aaaa5;
+	color:white;
+
+	}
+
+	.contact {
+	position: absolute;
+	left:470px;
+	top:0px;
+	}
+
+	.contact:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.connect {
+	position: absolute;
+	left:70px;
+	background-color: #ffffff;
+	width:270px;
+	text-align: center;
+	height:180px;
+	top:600px;
+	}
+
+	footer {
+
+		width:100%;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+
+	.wrapper{
+		max-width: 800px;
+	}
+
+	.header {
+		width:650px;
+	}
+
+	.about {
+	position: absolute;
+	left:600px;
+	top:0px;
+	}
+
+	.about:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.portfolio {
+	position: absolute;
+	left:530px;
+	top:0px;
+	}
+
+	.portfolio:hover {
+	background-color:#4aaaa5;
+	color:white;
+
+	}
+
+	.contact {
+	position: absolute;
+	left:470px;
+	top:0px;
+	}
+
+	.contact:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.connect {
+	position: absolute;
+	left:70px;
+	background-color: #ffffff;
+	width:270px;
+	text-align: center;
+	height:180px;
+	top:600px;
+	}
+
+	footer {
+
+		width:100%;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+/*	body{
+		background-color: green;
+	}*/
+	.wrapper{
+		max-width: 350px;
+	}
+
+	.container {
+	position: relative;
+	background-color: #ffffff;
+	width:400px;
+	height:560px;
+}
+	
+	.header {
+		width:650px;
+	}
+
+	.about {
+	position: absolute;
+	left:490px;
+	top:0px;
+	}
+
+	.about:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.portfolio {
+	position: absolute;
+	left:415px;
+	top:0px;
+	}
+
+	.portfolio:hover {
+	background-color:#4aaaa5;
+	color:white;
+
+	}
+
+	.contact {
+	position: absolute;
+	left:350px;
+	top:0px;
+	}
+
+	.contact:hover {
+	background-color:#4aaaa5;
+	color:white;
+	}
+
+	.connect {
+	position: absolute;
+	left:70px;
+	background-color: #ffffff;
+	width:270px;
+	text-align: center;
+	height:180px;
+	top:700px;
+	}
+
+	footer {
+		top:100%;
+		width:100%;
+	}
+
+}
